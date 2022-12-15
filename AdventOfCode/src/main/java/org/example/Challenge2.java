@@ -25,7 +25,6 @@ public class Challenge2 {
                     sum += Integer.parseInt(current);
                 }
             }
-            Collections.sort(sums);
             return sums;
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
